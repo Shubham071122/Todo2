@@ -30,7 +30,7 @@ function TodoItem({ todo }) {
         />
 
         <input type="text"
-          className={`bg-transparent py-1 px-2 w-full rounded-md border outline-none ${isEditable ? "border-black/10" : "border-transparent"} 
+          className={`bg-white py-1 px-2 w-full rounded-md border outline-none ${isEditable ? "border-black/10" : "border-transparent"} 
           ${todo?.completed ? "line-through" : ""}
           `}
           value={todoMsg}
